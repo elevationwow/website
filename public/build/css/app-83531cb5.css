@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #10171B;
+  color: #fff;
+  font-family: lato;
+  font-size: 30px;
+  text-align: center;
+  position: relative; }
+
+.image {
+  height: 100%;
+  margin: 0 10px 0 150px;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+  max-height: 250px;
+  max-width: 250px;
+  min-width: 250px;
+  border: 4px solid #fff;
+  border-radius: 4000px;
+  overflow: hidden;
+  background-image: url("https://scontent-sjc.xx.fbcdn.net/hphotos-xpa1/t31.0-8/703804_10152069596898306_1094768087_o.jpg");
+  background-image: url(http://www.pet-mantis.com/graphics/devils_flower_mantis1.jpg);
+  /*background-image: url("http://www.petco.com/assets/product_images/live_animal/ferret_D.jpg"); */
+  background-size: cover; }
+
+.content {
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column; }
+
+.services {
+  -webkit-order: 3;
+      -ms-flex-order: 3;
+          order: 3;
+  min-width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+
+.service {
+  background: #fec803;
+  color: #10171B;
+  padding: 1em;
+  box-shadow: 0 8px 8px -4px rgba(0, 0, 0, 0.8);
+  border-radius: 8px; }
+
+.contact {
+  -webkit-order: 4;
+      -ms-flex-order: 4;
+          order: 4;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: wrap row;
+      -ms-flex-flow: wrap row;
+          flex-flow: wrap row; }
+  .contact .lets-talk {
+    min-width: 100%; }
+    .contact .lets-talk h1 {
+      border: none;
+      min-width: 100%; }
+    .contact .lets-talk h2 {
+      border: none;
+      color: #fff; }
+  .contact .message {
+    width: 50%; }
+  .contact form {
+    width: 50%;
+    padding: 2em; }
+  .contact textarea, .contact input, .contact label {
+    width: 100%;
+    max-width: 100%; }
+  .contact label {
+    color: #e5e5e5; }
+  .contact textarea, .contact input {
+    border: none;
+    background-color: #fff;
+    padding: .5em;
+    border-bottom: 4px solid #fec803;
+    margin: 1em 0; }
+  .contact textarea {
+    min-height: 100px; }
+
+h1, h2 {
+  padding: 10px 0;
+  margin: 10px 0;
+  font-weight: 300;
+  min-width: 100%;
+  color: rgba(255, 255, 255, 0.5); }
+
+h1 {
+  border-bottom: 1px solid;
+  color: #fec803;
+  font-size: 80px; }
+
+h2 {
+  border-top: 1px solid;
+  color: #27A85D;
+  font-size: 60px; }
+
+.slide {
+  min-width: 100%;
+  background-image: url(/img/bw-trans-abstract.png);
+  background-size: cover; }
+
+.slide-2 {
+  background-color: #27A85D; }
+
+.slide-inner {
+  border-top: 8px solid #fec803;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: wrap row;
+      -ms-flex-flow: wrap row;
+          flex-flow: wrap row;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px;
+  min-height: 100%;
+  min-width: 100%; }
+
+@media all and (max-width: 960px) {
+  body {
+    display: block;
+    font-size: 18px; }
+  h1, h2 {
+    border: none;
+    line-height: 1; }
+  h1 {
+    font-size: 42px;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+  h2 {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 30px; }
+  .content, .services {
+    width: 100%;
+    -webkit-flex: none;
+        -ms-flex: none;
+            flex: none; }
+  .image {
+    margin: 0 auto;
+    max-height: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    width: auto; }
+  .services {
+    display: block; }
+  .service {
+    display: block;
+    margin-top: 1em; } }
+
+
+/*# sourceMappingURL=app.css.map */

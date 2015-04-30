@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  padding: 0;
+  margin: 0;
+
+  background-color: #10171B;
+  color: #fff;
+
+  font-family: lato;
+  font-size: 30px;
+
+  text-align: center;
+
+  position: relative;
+}
+
+.image {
+  height: 100%;
+  margin: 0 10px 0 150px;
+  order:1;
+  max-height:250px;
+  max-width:250px;
+
+  min-width:250px;
+  border: 4px solid #fff;
+  border-radius: 4000px;
+  overflow: hidden;
+
+  background-image: url("https://scontent-sjc.xx.fbcdn.net/hphotos-xpa1/t31.0-8/703804_10152069596898306_1094768087_o.jpg");
+  background-image: url(http://www.pet-mantis.com/graphics/devils_flower_mantis1.jpg);
+  /*background-image: url("http://www.petco.com/assets/product_images/live_animal/ferret_D.jpg"); */
+  background-size: cover;
+}
+.image img {
+
+}
+.content {
+  order: 2;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-flow: column;
+}
+
+.services {
+  order:3;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.service {
+  background: #fec803;
+  color: #10171B;
+  padding: 1em;
+  box-shadow: 0 8px 8px -4px rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+}
+
+.contact {
+  order: 4;
+  display: flex;
+  flex-flow: wrap row;
+
+  .lets-talk {
+    min-width: 100%;
+
+    h1 {
+    border: none;
+    min-width: 100%;
+  }
+  h2 {
+    border: none;
+    color: #fff;
+  }
+  }
+
+  .message {
+    width: 50%;
+  }
+  form {
+    width: 50%;
+    padding: 2em;
+  }
+
+  textarea, input, label {
+    width: 100%;
+    max-width: 100%;
+  }
+  label {
+    color: #e5e5e5;
+  }
+  textarea, input {
+    border: none;
+    background-color: #fff;
+       padding: .5em;
+    border-bottom: 4px solid #fec803;
+    margin: 1em 0;
+  }
+
+  textarea {
+    min-height: 100px;
+  }
+
+}
+
+
+h1,h2 {
+  padding:10px 0;
+  margin: 10px 0;
+  font-weight: 300;
+  min-width: 100%;
+  color: rgba(255,255,255,0.5)
+}
+h1 {
+  border-bottom: 1px solid;
+  color: #fec803;
+
+  font-size: 80px;
+
+}
+h2 {
+  border-top: 1px solid;
+  color: #27A85D;
+
+  font-size: 60px;
+
+}
+
+.slide {
+  min-width: 100%;
+
+  background-image: url(/img/bw-trans-abstract.png);
+  background-size: cover;
+}
+
+.slide-2 {
+  background-color: #27A85D;
+}
+
+.slide-inner {
+  border-top: 8px solid #fec803;
+  display: flex;
+  flex-flow: wrap row;
+  align-items: center;
+  padding: 40px;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+@media all and (max-width: 960px) {
+
+  body {
+    display: block;
+    font-size: 18px;
+  }
+
+  h1,h2 {
+    border: none;
+    line-height: 1;
+  }
+  h1 {
+    font-size: 42px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  h2 {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 30px;
+  }
+  .content, .services {
+    width: 100%;
+    flex: none;
+  }
+
+
+  .image {
+    margin: 0 auto;
+    max-height: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    width: auto;
+  }
+  .services {
+    display: block;
+  }
+  .service {
+    display: block;
+    margin-top: 1em;
+  }
+
+}
