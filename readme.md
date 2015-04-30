@@ -1,3 +1,1 @@
-## iamsean.nz
-
-Personal site and playgorund
+## Elevation Guild Website
