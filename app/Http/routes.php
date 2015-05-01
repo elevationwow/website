@@ -13,7 +13,7 @@ use Pwnraid\Bnet\Region;
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::get('elevation', function(){
+Route::get('/', function(){
     return view('elevation.index');
 });
 Route::get('armoury/{realm}/{name}', function($realm, $name){
