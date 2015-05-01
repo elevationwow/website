@@ -77,6 +77,7 @@ body {
   color: #FFF;
   font-weight: bold;
   font-size: 2em;
+  margin-bottom: 0.5em;
 }
 .recruitment__body {
   display: flex;
@@ -87,83 +88,77 @@ body {
   display: block;
   flex: 0 1 200px;
   margin: 0 .1em 1em;
-  font-weight: bold;
   color: #333;
 }
 .recruitment__body__class .class_spec{
 
 }
 .class_spec {
-  margin-bottom: 2px;
+  margin-bottom: 1px;
   margin-right: 1em;
   padding: .2em .4em;
+  background-color: #c9c9c9;
 }
 
 .class_spec--dk {
   border-left: 4px solid;
   border-color: #C41F3B;
-  background-color: #fff;
 
 }
 .class_spec--druid {
   border-left: 4px solid;
   border-color: #FF7D0A;
-  background-color: #fff;
 
 }
 .class_spec--hunter {
   border-left: 4px solid;
   border-color: #ABD473;
-  background-color: #fff;
 
 }
 .class_spec--mage {
   border-left: 4px solid;
   border-color: #69CCF0;
-  background-color: #fff;
 
 }
 .class_spec--monk {
   border-left: 4px solid;
   border-color: #00FF96;
-  background-color: #fff;
 
 }
 .class_spec--paladin {
   border-left: 4px solid;
   border-color: #F58CBA;
-  background-color: #fff;
 
 }
 .class_spec--priest {
   border-left: 4px solid;
   border-color: #FFFFFF;
-  background-color: #fff;
 
 }
 .class_spec--rogue {
   border-left: 4px solid;
   border-color: #FFF569;
-  background-color: #fff;
 
 }
 .class_spec--shaman {
   border-left: 4px solid;
   border-color: #0070DE;
-  background-color: #fff;
 
 }
 .class_spec--warlock {
   border-left: 4px solid;
   border-color: #9482C9;
-  background-color: #fff;
 
 }
 .class_spec--warrior {
   border-left: 4px solid;
   border-color: #C79C6E;
-  background-color: #fff;
+}
 
+.class_spec--not-recruiting {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #444;
+  border-color: #444;
 }
 
 
@@ -211,4 +206,26 @@ body {
 
     background: #C9C9C9;
     border: 1px solid #fff;
+}
+
+
+.raids {
+  display: flex;
+}
+.raid {
+  flex: 0 1 300px;
+}
+.raid h2 {
+  color: #FFF569;
+}
+.boss {
+  background-color: rgba(0,0,0,0.2);
+  flex: 0 0 auto;
+  border-left: 4px solid;
+  margin-right: 1em;
+  margin-bottom: 2px;
+  padding: .2em .4em;
+}
+.boss.dead {
+  background-color: #C9C9C9;
 }
