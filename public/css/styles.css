@@ -59,10 +59,23 @@ body {
 }
 .wrapper {
     width: 1000px;
-    margin: 0 auto;
-    background: #C9C9C9;
-    border: 5px solid #fff;
+
+  margin: 0 auto;
     color: #1b5e8c;
+
+    display: flex;
+}
+.page {
+  flex: 1 0 0%;
+  margin: 1em 1em 1em 0;
+}
+.recruitment-wrapper {
+  width: 300px;
+  margin: 1em 0 1em 1em;
+}
+.recruitment {
+
+
 }
 .menu {
   width: 1000px;
@@ -100,4 +113,7 @@ body {
 .desc {
     padding: 1em;
     background-color: #c9c9c9;
+
+    background: #C9C9C9;
+    border: 1px solid #fff;
 }

@@ -37,11 +37,14 @@
         </div>
     </div>
 <div class="wrapper">
-
-
-    <div class="desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, ipsa, a, doloremque maiores tempore reprehenderit tempora in magnam maxime aut deserunt asperiores eveniet unde quisquam dolore consectetur libero aliquid. Quam.</p>
+    <div class="page">
+        <div class="desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, ipsa, a, doloremque maiores tempore reprehenderit tempora in magnam maxime aut deserunt asperiores eveniet unde quisquam dolore consectetur libero aliquid. Quam.</p>
     <p>Repellat, quia, magni sequi vel molestias pariatur vitae error tempora nostrum nisi adipisci harum tempore facilis ad officia iste consectetur quam nesciunt earum architecto consequatur quisquam animi ea dolore sapiente.</p>
     <p>Optio, illo, suscipit voluptates explicabo minima nesciunt modi assumenda sed est dignissimos! Odio, ullam, velit, quam incidunt consequatur quo qui delectus cum illum quod laudantium magni deleniti error officia veniam.</p></div>
+    </div>
+    @include('partials.recruitment.widget')
+
+
 </div>
 </body>
 </html>
