@@ -19,14 +19,14 @@
             <div class="bosses">
             <div class="boss dead">Oregorger</div>
             <div class="boss dead">Gruul</div>
-            <div class="boss dead">Blast Furnace</div>
+            <div class="boss">Blast Furnace</div>
             <div class="boss dead">Darmac</div>
             <div class="boss dead">Thogar</div>
             <div class="boss dead">Maidens</div>
             <div class="boss dead">Hansgar & Franzoc</div>
-            <div class="boss dead">Fireslut</div>
-            <div class="boss dead">Kromog</div>
-            <div class="boss dead">Blackhand</div>
+            <div class="boss">Fireslut</div>
+            <div class="boss">Kromog</div>
+            <div class="boss">Blackhand</div>
             </div>
                 </div>
             </div>

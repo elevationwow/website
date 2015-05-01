@@ -220,12 +220,14 @@ body {
 }
 .boss {
   background-color: rgba(0,0,0,0.2);
+  color: #444;
   flex: 0 0 auto;
-  border-left: 4px solid;
+  border-left: 4px solid #444;
   margin-right: 1em;
   margin-bottom: 2px;
   padding: .2em .4em;
 }
 .boss.dead {
   background-color: #C9C9C9;
+  border-left-color: #0070DE;
 }
