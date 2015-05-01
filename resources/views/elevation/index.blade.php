@@ -42,6 +42,8 @@
     <p>Repellat, quia, magni sequi vel molestias pariatur vitae error tempora nostrum nisi adipisci harum tempore facilis ad officia iste consectetur quam nesciunt earum architecto consequatur quisquam animi ea dolore sapiente.</p>
     <p>Optio, illo, suscipit voluptates explicabo minima nesciunt modi assumenda sed est dignissimos! Odio, ullam, velit, quam incidunt consequatur quo qui delectus cum illum quod laudantium magni deleniti error officia veniam.</p></div>
     </div>
+
+    @include('partials.progression.widget')
     @include('partials.recruitment.widget')
 
 
