@@ -22,11 +22,12 @@ body {
 .slider {
   width: 1000px;
   /* height: 350px; */
-  margin: 3em auto;
+  margin: 0 auto 2em;
   /* border: 5px solid #FFF; */
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
   border: 1px solid #fff;
   position: relative;
+  z-index: 1;
 
 }
 .controls {
@@ -63,20 +64,110 @@ body {
   margin: 0 auto;
     color: #1b5e8c;
 
-    display: flex;
 }
 .page {
-  flex: 1 0 0%;
   margin: 1em 1em 1em 0;
 }
 .recruitment-wrapper {
-  width: 300px;
   margin: 1em 0 1em 1em;
+  width: 100%;
 }
-.recruitment {
+
+.recruitment__title {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 2em;
+}
+.recruitment__body {
+  display: flex;
+  flex-flow: wrap row;
+  flex: 1 1 0%;
+}
+.recruitment__body__class {
+  display: block;
+  flex: 0 1 200px;
+  margin: 0 .1em 1em;
+  font-weight: bold;
+  color: #333;
+}
+.recruitment__body__class .class_spec{
+
+}
+.class_spec {
+  margin-bottom: 2px;
+  margin-right: 1em;
+  padding: .2em .4em;
+}
+
+.class_spec--dk {
+  border-left: 4px solid;
+  border-color: #C41F3B;
+  background-color: #fff;
+
+}
+.class_spec--druid {
+  border-left: 4px solid;
+  border-color: #FF7D0A;
+  background-color: #fff;
+
+}
+.class_spec--hunter {
+  border-left: 4px solid;
+  border-color: #ABD473;
+  background-color: #fff;
+
+}
+.class_spec--mage {
+  border-left: 4px solid;
+  border-color: #69CCF0;
+  background-color: #fff;
+
+}
+.class_spec--monk {
+  border-left: 4px solid;
+  border-color: #00FF96;
+  background-color: #fff;
+
+}
+.class_spec--paladin {
+  border-left: 4px solid;
+  border-color: #F58CBA;
+  background-color: #fff;
+
+}
+.class_spec--priest {
+  border-left: 4px solid;
+  border-color: #FFFFFF;
+  background-color: #fff;
+
+}
+.class_spec--rogue {
+  border-left: 4px solid;
+  border-color: #FFF569;
+  background-color: #fff;
+
+}
+.class_spec--shaman {
+  border-left: 4px solid;
+  border-color: #0070DE;
+  background-color: #fff;
+
+}
+.class_spec--warlock {
+  border-left: 4px solid;
+  border-color: #9482C9;
+  background-color: #fff;
+
+}
+.class_spec--warrior {
+  border-left: 4px solid;
+  border-color: #C79C6E;
+  background-color: #fff;
+
+}
 
 
-}
+
 .menu {
   width: 1000px;
   background-color: #FFF;
@@ -87,14 +178,16 @@ body {
   justify-content: space-around;
   text-align: center;
   padding: 0;
-  margin: 2em auto;
+  margin: 2em auto 0;
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
    -webkit-perspective: 1000;
+   z-index: 2;
+   position: relative;
 }
 .menu>li {
     padding: 1em 2em;
     transition: all .3s ease;
-    transform: rotateZ(0);
+   _transform: translate3d(0,0,0);
     -webkit-backface-visibility: hidden;
     -webkit-filter: blur(0);
 
@@ -103,11 +196,13 @@ body {
     background-color: #fff;
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
   transform: scale(1.1);
+  transform-style: preserve-3d;
 }
 .menu .current {
   border-bottom: 5px solid #C9C9C9;
   background-color: #FFF;
   transform: scale(1.2);
+  transform-style: preserve-3d;
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
 }
 .desc {
