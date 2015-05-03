@@ -43,9 +43,10 @@
     <p>Optio, illo, suscipit voluptates explicabo minima nesciunt modi assumenda sed est dignissimos! Odio, ullam, velit, quam incidunt consequatur quo qui delectus cum illum quod laudantium magni deleniti error officia veniam.</p></div>
     </div>
 
+<div class="wrapper-2">
     @include('partials.progression.widget')
     @include('partials.recruitment.widget')
-
+</div>
 
 </div>
 </body>
